@@ -145,13 +145,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="ConsoleFunctions.h" />
     <ClInclude Include="Tic-tac-toe.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleFunctions.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Intro.cpp" />
     <ClCompile Include="Tic-tac-toe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
